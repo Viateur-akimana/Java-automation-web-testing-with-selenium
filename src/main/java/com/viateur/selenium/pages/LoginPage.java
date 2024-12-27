@@ -4,29 +4,29 @@ import com.viateur.selenium.BasePage;
 import org.openqa.selenium.By;
 
 public class LoginPage extends BasePage {
-    private By usernameForm=By.id("user-name");
-    private By passwordForm=By.id("password");
-    private By loginButtonForm=By.id("login-button");
-    private By errorMessages=By.xpath("#login_button_container h3");
+    private static By usernameForm=By.id("user-name");
+    private static By passwordForm=By.id("password");
+    private static By loginButtonForm=By.id("login-button");
+    private static By errorMessages=By.cssSelector("#login_button_container h3");
 
 
-    public void setUsernameForm(String username) {
+    public static void setUsernameForm(String username) {
         set(usernameForm, username);
     }
-    public void setPasswordForm(String password) {
+    public static void setPasswordForm(String password) {
         set(passwordForm,password);
     }
-    public ProductsPage clickLoginButton(){
+    public static ProductsPage clickLoginButton(){
         click(loginButtonForm);
         return new ProductsPage();
     }
-    public ProductsPage logIntoApplication(String username, String password){
+    public static ProductsPage logIntoApplication(String username, String password){
         setUsernameForm(username);
         setPasswordForm(password);
         return clickLoginButton();
     }
 
-    public String getErrorMessage(){
+    public static String getErrorMessage(){
         return find(errorMessages).getText();
     }
 }
