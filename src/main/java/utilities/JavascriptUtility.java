@@ -1,4 +1,4 @@
-package com.viateur.selenium.utilities;
+package utilities;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -11,6 +11,12 @@ public class JavascriptUtility extends Utility {
         WebElement element = webDriver.findElement(Locator);
         JavascriptExecutor  js = (JavascriptExecutor) webDriver;
         String scripts="arguments[0].scrollIntoView();";
+        js.executeScript(scripts,element);
+    }
+    public static void clickButton(By Locator){
+        WebElement element = webDriver.findElement(Locator);
+        JavascriptExecutor js = (JavascriptExecutor) webDriver;
+        String scripts ="arguments[0].click();";
         js.executeScript(scripts,element);
     }
 

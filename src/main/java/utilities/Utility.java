@@ -1,4 +1,4 @@
-package com.viateur.selenium.utilities;
+package utilities;
 
 import com.viateur.selenium.BasePage;
 import org.openqa.selenium.WebDriver;

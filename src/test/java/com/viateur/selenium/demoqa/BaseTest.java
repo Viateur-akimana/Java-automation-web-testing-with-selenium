@@ -7,7 +7,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
-import static com.viateur.selenium.utilities.Utility.setUtilityDriver;
+import static utilities.Utility.setUtilityDriver;
 import static com.viateur.selenium.BasePage.delay;
 
 public class BaseTest {
