@@ -1,7 +1,7 @@
 package com.viateur.selenium.pageobjectmodel;
 
-import com.viateur.selenium.pages.LoginPage;
-import com.viateur.selenium.pages.ProductsPage;
+import com.viateur.selenium.saucedemo.pages.LoginPage;
+import com.viateur.selenium.saucedemo.pages.ProductsPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

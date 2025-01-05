@@ -1,10 +1,9 @@
 package com.viateur.selenium.pageobjectmodel;
 
 import com.viateur.selenium.BasePage;
-import com.viateur.selenium.pages.LoginPage;
+import com.viateur.selenium.saucedemo.pages.LoginPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 

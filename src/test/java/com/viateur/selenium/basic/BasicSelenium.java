@@ -9,6 +9,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import static com.viateur.selenium.BasePage.delay;
+
 public class BasicSelenium {
     WebDriver webDriver;
 
@@ -20,6 +22,7 @@ public class BasicSelenium {
     }
     @AfterClass
     public void teardown(){
+        delay(4000);
         webDriver.quit();
     }
     @Test

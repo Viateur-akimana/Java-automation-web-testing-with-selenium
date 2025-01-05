@@ -1,6 +1,6 @@
 package com.viateur.selenium.pageobjectmodel;
 
-import com.viateur.selenium.pages.LoginPage;
+import com.viateur.selenium.saucedemo.pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

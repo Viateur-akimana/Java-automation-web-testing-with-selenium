@@ -1,4 +1,4 @@
-package com.viateur.selenium.pages;
+package com.viateur.selenium.saucedemo.pages;
 
 import com.viateur.selenium.BasePage;
 import org.openqa.selenium.By;
