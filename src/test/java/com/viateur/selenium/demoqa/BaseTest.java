@@ -34,6 +34,6 @@ public class BaseTest {
     @AfterClass
     public void tearDown(){
         delay(4000);
-//        webDriver.quit();
+        webDriver.quit();
     }
 }
