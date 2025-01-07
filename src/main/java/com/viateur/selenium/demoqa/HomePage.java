@@ -3,8 +3,7 @@ package com.viateur.selenium.demoqa;
 import com.viateur.selenium.BasePage;
 import com.viateur.selenium.demoqa.forms.FormsPage;
 import com.viateur.selenium.demoqa.modals.AlertFramesWindows;
-import com.viateur.selenium.demoqa.modals.ModalPage;
-import com.viateur.selenium.demoqa.tables.ElementsPage;
+import com.viateur.selenium.demoqa.allelements.ElementsPage;
 import com.viateur.selenium.demoqa.widgets.WidgetsPage;
 import org.openqa.selenium.By;
 

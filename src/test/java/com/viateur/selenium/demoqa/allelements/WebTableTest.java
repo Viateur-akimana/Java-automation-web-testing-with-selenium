@@ -1,4 +1,4 @@
-package com.viateur.selenium.demoqa.tables;
+package com.viateur.selenium.demoqa.allelements;
 
 import com.viateur.selenium.demoqa.BaseTest;
 import org.testng.Assert;

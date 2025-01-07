@@ -1,4 +1,4 @@
-package com.viateur.selenium.demoqa.tables;
+package com.viateur.selenium.demoqa.allelements;
 
 import org.openqa.selenium.By;
 
