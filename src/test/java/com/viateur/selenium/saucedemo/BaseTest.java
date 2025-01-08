@@ -1,4 +1,4 @@
-package com.viateur.selenium.pageobjectmodel;
+package com.viateur.selenium.saucedemo;
 
 import com.viateur.selenium.BasePage;
 import com.viateur.selenium.saucedemo.pages.LoginPage;
