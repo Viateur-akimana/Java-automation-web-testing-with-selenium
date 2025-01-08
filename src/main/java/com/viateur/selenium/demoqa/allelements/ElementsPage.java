@@ -8,6 +8,7 @@ import static utilities.JavascriptUtility.scrollToElements;
 public class ElementsPage extends HomePage {
     private By webTables = By.xpath("//li[@id='item-3']/span[text()='Web Tables']");
     private By dynamicProperties = By.xpath("//li[@id=\"item-8\"]/span[text()=\"Dynamic Properties\"]");
+    private By keyboard=By.xpath("//li[@id='item-0']/span[text()='Text Box']");
 
     public DynamicPropertyPage clickToDynamicPropertiesPage(){
         scrollToElements(dynamicProperties);
@@ -18,5 +19,10 @@ public class ElementsPage extends HomePage {
         scrollToElements(webTables);
         click(webTables);
         return new TablePage();
+    }
+    public KeyboardPage goToKeyboard(){
+        scrollToElements(keyboard);
+        click(keyboard);
+        return new KeyboardPage();
     }
 }
